@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/logintext" />
+
+            <EditText
+                android:id="@+id/editlogin"
+                android:layout_width="match_parent"
+                android:hint="login"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/passwordtext" />
+            <EditText
+                android:id="@+id/editpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="password"/>
+
+            <Button
+                android:id="@+id/mainExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exitToJournal" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

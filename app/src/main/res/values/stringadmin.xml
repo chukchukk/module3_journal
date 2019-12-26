@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textadm">Admin account</string>
+    <string name="newpupil">Регистрация ученика</string>
+    <string name="newteacher">Регистрация учителя</string>
+    <string name="newparrent">Регистрация родителя</string>
+    <string name="newpersonal">Регистрация персонала</string>
+    <string name="rebuildraspisanie">Назначить рассписание</string>
+
+</resources>

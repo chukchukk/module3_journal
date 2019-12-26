@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        app:srcCompat="@mipmap/logotype" />
+    <EditText
+        android:id="@+id/setOcenkiClassNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:textColorHint="#AA111111"
+        android:layout_marginHorizontal="5dp"
+        android:hint="@string/numberOfClass"
+        />
+    <EditText
+        android:id="@+id/setOcenkiName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:hint="Имя ученика"
+        android:textColorHint="#AA111111"/>
+    <EditText
+        android:id="@+id/setOcenkiSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:hint="Фамилия ученика"
+        android:textColorHint="#AA111111"/>
+    <EditText
+        android:id="@+id/setOcenkiSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:hint="Название предмета"
+        android:textColorHint="#AA111111"/>
+    <EditText
+        android:id="@+id/setOcenki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:hint="Оценка"
+        android:textColorHint="#AA111111"/>
+    <Button
+        android:id="@+id/ocenkiToServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Inverse"
+        android:layout_gravity="right"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:text="Ввод"/>
+</LinearLayout>

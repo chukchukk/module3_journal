@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">module3</string>
+    <string name="teach">Зайти как учитель</string>
+    <string name="pupil">Зайти как ученик</string>
+    <string name="admin">Зайти как администратор</string>
+    <string name="director">Зайти как директор</string>
+    <string name="zavuch">Зайти как завуч</string>
+    <string name="parrent">Зайти как родитель</string>
+    <string name="logintext">Введите login</string>
+    <string name="passwordtext">Введите password</string>
+    <string name="exitToJournal">Вход</string>
+    <string name="numberSchoool">Добро пожаловать в электронный журнал гимназии № 97</string>
+    <string name="numberOfClass">№ класса</string>
+    <string name="FIO">Фамилия И.О.</string>
+</resources>

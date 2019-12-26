@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/setRaspisnieTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/mybuttonteacher"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="Задать д/з"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/setOcenkiTeacher"
+        android:layout_width="match_parent"
+        android:background="@drawable/mybuttonteacher2"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="Выставить оценки"
+        android:textSize="20dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
